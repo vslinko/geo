@@ -1,0 +1,26 @@
+{
+    "name": "rithis/geo",
+    "description": "ASYNC HTTP XML JSON GEO SEARCH CACHED PHP SERVER",
+    "keywords": ["async", "http", "xml", "json", "geo", "search", "cached", "php", "server"],
+    "homepage": "https://github.com/rithis/geo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vyacheslav Slinko",
+            "email": "vyacheslav.slinko@rithis.com",
+            "role": "Founder"
+        }
+    ],
+    "support": {
+        "email": "support@rithis.com",
+        "issues": "https://github.com/rithis/geo/issues",
+        "wiki": "https://github.com/rithis/geo/wiki",
+        "source": "https://github.com/rithis/geo"
+    },
+    "require": {
+        "willdurand/geocoder": "@dev",
+        "kriswallsmith/buzz": "@stable",
+        "react/espresso": "@stable"
+    },
+    "minimum-stability": "dev"
+}
