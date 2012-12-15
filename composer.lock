@@ -1,24 +1,68 @@
 {
-    "hash": "657634e4a937b4cb8f458915b7890ce4",
+    "hash": "3be4a31a994459cd733c38af504ccd1e",
     "packages": [
+        {
+            "name": "dnode/dnode",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/bergie/dnode-php.git",
+                "reference": "0.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/bergie/dnode-php/zipball/0.0.2",
+                "reference": "0.0.2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "evenement/evenement": ">=0.1.0"
+            },
+            "time": "2012-04-23 02:05:04",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "DNode": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Henri Bergius",
+                    "email": "henri.bergius@iki.fi",
+                    "homepage": "http://bergie.iki.fi/"
+                }
+            ],
+            "description": "DNode RPC protocol for PHP 5.3",
+            "homepage": "https://github.com/bergie/dnode-php",
+            "keywords": [
+                "dnode",
+                "nodejs",
+                "rpc"
+            ]
+        },
         {
             "name": "evenement/evenement",
             "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/igorw/evenement",
-                "reference": "e3069e43228cba12f3e6e76ad53401232f9bacfb"
+                "reference": "406a0bd40c4d934e020469b923fad6330512ed4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/igorw/evenement/zipball/e3069e43228cba12f3e6e76ad53401232f9bacfb",
-                "reference": "e3069e43228cba12f3e6e76ad53401232f9bacfb",
+                "url": "https://github.com/igorw/evenement/archive/406a0bd40c4d934e020469b923fad6330512ed4c.zip",
+                "reference": "406a0bd40c4d934e020469b923fad6330512ed4c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "1351867497",
+            "time": "1351909043",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -220,18 +264,18 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Pimple.git",
-                "reference": "b9f27b8dc18c08f00627dec02359b46a24791dc3"
+                "reference": "86df0604a10c5faf20b466ae6a0b762cc6ed0a35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Pimple/zipball/b9f27b8dc18c08f00627dec02359b46a24791dc3",
-                "reference": "b9f27b8dc18c08f00627dec02359b46a24791dc3",
+                "url": "https://github.com/fabpot/Pimple/archive/86df0604a10c5faf20b466ae6a0b762cc6ed0a35.zip",
+                "reference": "86df0604a10c5faf20b466ae6a0b762cc6ed0a35",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "1347278988",
+            "time": "1352622754",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -477,12 +521,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Silex.git",
-                "reference": "404264bbfd0753c2c1c45ee0827cf7c613d5cf2d"
+                "reference": "7e5e1f88990c010351093691a7ca01e2e94c2706"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Silex/archive/404264bbfd0753c2c1c45ee0827cf7c613d5cf2d.zip",
-                "reference": "404264bbfd0753c2c1c45ee0827cf7c613d5cf2d",
+                "url": "https://github.com/fabpot/Silex/archive/7e5e1f88990c010351093691a7ca01e2e94c2706.zip",
+                "reference": "7e5e1f88990c010351093691a7ca01e2e94c2706",
                 "shasum": ""
             },
             "require": {
@@ -517,7 +561,7 @@
                 "symfony/css-selector": ">=2.1,<2.3-dev",
                 "symfony/dom-crawler": ">=2.1,<2.3-dev"
             },
-            "time": "1352442300",
+            "time": "1352821595",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -557,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher",
-                "reference": "v2.1.3"
+                "reference": "b5b6807bcc192f3a1c4fba7ef48466ebbd3c4485"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/EventDispatcher/archive/v2.1.3.zip",
-                "reference": "v2.1.3",
+                "url": "https://github.com/symfony/EventDispatcher/archive/b5b6807bcc192f3a1c4fba7ef48466ebbd3c4485.zip",
+                "reference": "b5b6807bcc192f3a1c4fba7ef48466ebbd3c4485",
                 "shasum": ""
             },
             "require": {
@@ -575,7 +619,7 @@
                 "symfony/dependency-injection": "2.1.*",
                 "symfony/http-kernel": "2.1.*"
             },
-            "time": "1349363877",
+            "time": "1352368308",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -611,18 +655,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation",
-                "reference": "68f26a266ce80965c05042fa06b237cf7505b868"
+                "reference": "2ec414314c836e418301a7a251e2e4d5f6d46924"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/HttpFoundation/archive/68f26a266ce80965c05042fa06b237cf7505b868.zip",
-                "reference": "68f26a266ce80965c05042fa06b237cf7505b868",
+                "url": "https://github.com/symfony/HttpFoundation/archive/2ec414314c836e418301a7a251e2e4d5f6d46924.zip",
+                "reference": "2ec414314c836e418301a7a251e2e4d5f6d46924",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "1352394182",
+            "time": "1352824146",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -659,12 +703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel",
-                "reference": "a37babd1c44b70e4790a62410703c7ea7b8a4826"
+                "reference": "9c75c75993f009c3183696ab9ed7320f3df351b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/HttpKernel/archive/a37babd1c44b70e4790a62410703c7ea7b8a4826.zip",
-                "reference": "a37babd1c44b70e4790a62410703c7ea7b8a4826",
+                "url": "https://github.com/symfony/HttpKernel/archive/9c75c75993f009c3183696ab9ed7320f3df351b8.zip",
+                "reference": "9c75c75993f009c3183696ab9ed7320f3df351b8",
                 "shasum": ""
             },
             "require": {
@@ -690,7 +734,7 @@
                 "symfony/dependency-injection": "2.1.*",
                 "symfony/finder": "2.1.*"
             },
-            "time": "1352394182",
+            "time": "1352544437",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -726,12 +770,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Routing",
-                "reference": "b4c39ea080cfcce4efbfa90fc6cac4222c36432b"
+                "reference": "ad7995b5cf8b62ae55ac513ad5d2926a74c8fded"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Routing/zipball/b4c39ea080cfcce4efbfa90fc6cac4222c36432b",
-                "reference": "b4c39ea080cfcce4efbfa90fc6cac4222c36432b",
+                "url": "https://github.com/symfony/Routing/archive/ad7995b5cf8b62ae55ac513ad5d2926a74c8fded.zip",
+                "reference": "ad7995b5cf8b62ae55ac513ad5d2926a74c8fded",
                 "shasum": ""
             },
             "require": {
@@ -748,7 +792,7 @@
                 "symfony/config": "2.2.*",
                 "symfony/yaml": "2.2.*"
             },
-            "time": "1352017821",
+            "time": "1352849156",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -783,12 +827,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Geocoder",
-                "reference": "c9affb53fa0a3079ae7c21c802e2e44c8ea28034"
+                "reference": "fa02b5484beb45b127d6ce19bdbe319910d97a63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/willdurand/Geocoder/archive/c9affb53fa0a3079ae7c21c802e2e44c8ea28034.zip",
-                "reference": "c9affb53fa0a3079ae7c21c802e2e44c8ea28034",
+                "url": "https://github.com/willdurand/Geocoder/archive/fa02b5484beb45b127d6ce19bdbe319910d97a63.zip",
+                "reference": "fa02b5484beb45b127d6ce19bdbe319910d97a63",
                 "shasum": ""
             },
             "require": {
@@ -805,7 +849,7 @@
                 "guzzle/guzzle": "Enabling Guzzle allows you to use the GuzzleHttpAdapter.",
                 "zendframework/zend-http": "Enabling Zend_Http allows you to use the ZendHttpAdapter"
             },
-            "time": "1352293487",
+            "time": "1352846855",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -846,6 +890,7 @@
     "stability-flags": {
         "willdurand/geocoder": 20,
         "kriswallsmith/buzz": 0,
-        "react/espresso": 0
+        "react/espresso": 0,
+        "dnode/dnode": 0
     }
 }

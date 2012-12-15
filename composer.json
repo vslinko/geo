@@ -20,7 +20,8 @@
     "require": {
         "willdurand/geocoder": "@dev",
         "kriswallsmith/buzz": "@stable",
-        "react/espresso": "@stable"
+        "react/espresso": "@stable",
+        "dnode/dnode": "@stable"
     },
     "minimum-stability": "dev"
 }
